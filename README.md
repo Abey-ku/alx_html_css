@@ -21,3 +21,10 @@ FAQ Section: Provides answers to frequently asked questions.
 
 Footer:
 Contains the logo and social media icons, along with copyright information.
+
+### Notes
+- Link to project - https://github.com/Abey-ku/alx_html_css
+- GitHub Username - Abey-ku and the repository name is 'alx_html_css`
+- Figma file - https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=0-1&t=ZtWyIsmMgoPCPZJF-0
+
+This README file provides a comprehensive overview of the project, including setup instructions, project structure, dependencies, code details, customization options, and credits.
