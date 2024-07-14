@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    --clr-red: #FF6565;
+    --clr-black: #071629;
+
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--clr-black);
+    background-image: url("headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+img {
+    width: 70%;
+    height: auto;
+    }
+
+
+
+
+    /* Dropdown Button */
+.top {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    padding-left: 1000px;
+}
+
+
+.img-smile {
+    width: 20%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+
+
+ 
+/* container and grid */
+
+.container{
+    max-width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.col-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+
+.col-1-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.about-container {
+    align-items: center;
+    align-content: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+
+
+.section-results {
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    background-image: url(headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+
+/* end of container and grid */
+
+
+
+/* ####### buttons ###### */
+.btn {
+    display: inline-block;
+    background-color: var(--clr-red);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 4px #00000066;
+}
+.btn:hover,
+.btn:focus {
+    color: var(--clr-red);
+    background-color: #fff;
+}
+
+
+
+
+
+
+/* ############# Section hero ########## */
+.section-hero {
+    width: 90%;
+    height: 90vh;
+    
+}
+.section-hero .hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.section-hero .btn {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* ############# End of Section hero ########## */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################# Media queries ############## */
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+    .wrapper {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .col-1-2 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+.top {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    padding-left: 1000px;
+}
+/* End of Desktops */
+
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    
+    .col-1-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .col-1-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .top {
+        display: flex;
+        gap: 30px;
+        color: #fff;
+        padding-left: 600px;
+}
+}
+/* End of tables */
+
+/* Smart Phone */
+@media screen and (max-width: 425px) {
+    
+    .col-1-4 {
+        grid-template-columns: 1fr;
+    }
+
+
+    .col-1-2 {
+        grid-template-columns: 1fr;
+    }
+    .img-smile {
+    
+    }
+}
+/* End of Smart phones */
